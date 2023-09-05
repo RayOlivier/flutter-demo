@@ -92,7 +92,7 @@ or for rapid play-testing. The following command requires installing
 ```bash
 flutter pub global run peanut \
 --web-renderer canvaskit \
---extra-args "--base-href=/name_of_your_github_repo/" \
+--extra-args "--base-href=/flutter-demo/" \
 && git push origin --set-upstream gh-pages
 ```
 
